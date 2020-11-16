@@ -1,6 +1,6 @@
 # Exploratory Data Analysis
 
-  # Course Project 1
+  # Course Project 1 - Graphic 1
     library(dplyr)
 
   # Preparing the data to work
@@ -26,4 +26,3 @@
     hist(data$Global_active_power, col = "red", main = "Global active power", 
          breaks = 15 , xlab = "Global reactive power(kilowwats)")
     dev.off()
-    
